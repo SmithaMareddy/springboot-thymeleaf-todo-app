@@ -1,0 +1,7 @@
+# Exclude frontend files from language statistics
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+
+# Optional: Ensure line endings are consistent across Windows/Mac/Linux
+* text=auto
