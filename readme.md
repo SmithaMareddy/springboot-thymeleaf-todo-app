@@ -20,6 +20,17 @@ A functional CRUD web application built to manage daily tasks. This project demo
 * **Clean UI:** Styled with Bootstrap for a modern, responsive feel.
 * **Architecture:** Follows the MVC (Model-View-Controller) design pattern.
 
+## 📂 Project Structure
+This project follows the **MVC (Model-View-Controller)** design pattern:
+```text
+src/main/java/com/example/todoapp/
+├── controller    # Handles HTTP requests and navigation
+├── model         # JPA Entities representing database tables
+├── repository    # Interfaces for CRUD operations (Spring Data JPA)
+├── service       # Contains Business Logic (Optional but recommended)
+└── TodoAppApplication.java
+```
+
 ## ⚙️ Quick Start
 1. **Clone the repo:**
    ```bash
@@ -30,12 +41,3 @@ Update src/main/resources/application.properties with your MySQL username and pa
 3. **Run**:
 Launch the application from IntelliJ IDEA and visit http://localhost:8080.
 
-## 📂 Project Structure
-This project follows the **MVC (Model-View-Controller)** design pattern:
-```text
-src/main/java/com/example/todoapp/
-├── controller    # Handles HTTP requests and navigation
-├── model         # JPA Entities representing database tables
-├── repository    # Interfaces for CRUD operations (Spring Data JPA)
-├── service       # Contains Business Logic (Optional but recommended)
-└── TodoAppApplication.java
